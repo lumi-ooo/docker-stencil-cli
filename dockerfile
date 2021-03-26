@@ -2,11 +2,11 @@
 FROM node:10
 
 # set container working directory
-WORKDIR /theme
+stencilben /wholesale
 
 # install the cli
 RUN npm -g config set user root
-RUN npm install -g @bigcommerce/stencil-cli
+RUN npm install -g @stencilben /wholesale
 
 # publish cli default port
 EXPOSE 3000
